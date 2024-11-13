@@ -1,0 +1,304 @@
+.form-control {
+  width: 300px;
+  /* Tamaño deseado */
+  font-size: 16px;
+  /* Tamaño de la fuente deseado */
+}
+
+
+#ola {
+  list-style-type: none;
+}
+
+/* Establecer márgenes o paddings según sea necesario para los elementos de la lista */
+#ola li {
+  margin: 0;
+  padding: 0;
+}
+.cover-ctn-search{
+
+  fill: rgb(248, 210, 206);
+  background-color: rgb(248, 210, 206);
+}
+.btn {
+  font-size: 16px;
+  /* Puedes ajustar el tamaño 
+   */
+}
+/* Tamaños*/
+.price {
+  font-size: 18px;
+  font-weight: 900;
+}
+/* Tamaños*/
+
+.imagen {
+  width: auto;
+  height: 480px;
+  max-height: 480px;
+}
+/* Tamaños*/
+
+.icono {
+  width: auto;
+  height: 80px;
+  max-height: 80px;
+}
+/* Tamaños*/
+
+.cartas {
+  width: auto;
+  height: 380px;
+  max-height: 380px;
+}
+/* Animacion del hidden*/
+
+.card {
+  overflow: hidden;
+  transition: transform 0.2s;
+  /* Agrega una transición suave */
+}
+
+.card:hover {
+  transform: scale(1.1);
+  /* Aplica el zoom al hacer hover sobre la carta */
+}
+/* Tamaños y color*/
+
+.icon-cart {
+  width: 40px;
+  height: 40px;
+  stroke: #000;
+}
+/* cursor de flecha y que se pueda dar clic*/
+
+.icon-cart:hover {
+
+  cursor: pointer;
+}
+
+.container-icon {
+
+  position: relative;
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.count-products {
+
+
+  position: absolute;
+  top: 55%;
+  right: 0;
+  background-color: #000;
+  color: #f2f2f2;
+
+
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+
+
+}
+
+/* Tamaños*/
+
+#contador-productos {
+  font-size: 12px;
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.container-cart-products {
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  background-color: #f2f2f2;
+  width: 400px;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.cart-product {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.info-cart-product {
+
+  display: flex;
+  justify-content: space-between;
+  flex: 0.8;
+
+
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+
+.titulo-producto-carrito {
+  font-size: 20px;
+
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.precio-producto-carrito {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+/* Tamaños y diseño para lo bolsa de compra*/
+
+.cantidad-producto-carrito {
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+/* Tamaños y diseño para lo bolsa de compra de la x*/
+
+.icon-close {
+
+  width: 25px;
+  
+
+  height: 25px;
+}
+/* Tamaños y diseño para lo bolsa de compra color*/
+
+.icon-close:hover {
+  stroke: red;
+  cursor: pointer;
+
+
+}
+
+
+
+/* Tamaños y diseño para lo bolsa de compra del total*/
+
+.cart-total {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+
+}
+
+.cart-total h3 {
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.total-pagar {
+  font-size: 20px;
+  font-weight: 900;
+
+
+}
+
+
+.hidden-cart {
+
+  display: none;
+
+
+}
+
+
+
+
+
+/* Tamaños y diseño */
+
+footer {
+
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+/* Tamaños y acomodo*/
+
+.cart-empty {
+  padding: 20px;
+  text-align: center;
+}
+/* Tamaños y acomodo buscador*/
+
+#box-search {
+  position: fixed;
+  top: 165px;
+
+  width: 1600px;
+  background: #fff;
+  z-index: 8;
+
+}
+/* Tamaños y acomodo buscador que este arriba de todo*/
+
+#resultado {
+  z-index: 10;
+}
+/* Tamaños y acomodo buscador que este arriba de todo*/
+
+#cover-ctn-search {
+  z-index: 1;
+}
+/* color de fomdo*/
+
+#box-search li:hover {
+  background: black;
+
+}
+/* color de animacion alpasar cursor*/
+
+:hover {
+  color: green;
+}
+/* quitar los puntos*/
+
+a {
+  text-decoration: none;
+}
+/* color de letra*/
+
+a {
+  color: #000;
+}
+/* que quede bien acomodado*/
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+}
+/* margen de los resultados*/
+
+.resultado .resultado-item {
+  margin-bottom: 10px;
+}
+
+
+
+.icono-persona {
+  width: 20px; /* Ajusta el ancho según sea necesario */
+  height: 20px; /* Ajusta el alto según sea necesario */
+  /* Otros estilos opcionales */
+}
